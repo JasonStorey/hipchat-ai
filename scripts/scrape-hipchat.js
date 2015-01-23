@@ -12,7 +12,7 @@ var rows = document.querySelectorAll('.hc-chat-row.hc-msg-nocolor');
         message = {
             name: name.innerHTML,
             content: content.innerHTML,
-            time: time.innerHTML
+            time: time.getAttribute('name')
         };
     }
 
