@@ -14,9 +14,8 @@ var rows = document.querySelectorAll('.hc-chat-row.hc-msg-nocolor');
             content: content.innerHTML,
             time: time.getAttribute('name')
         };
+        messages.push(message);
     }
-
-    messages.push(message);
 });
 
 console.log(JSON.stringify(messages));
