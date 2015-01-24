@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Barry Wright",
+    "content": "\n      <span class=\"atTag\">@justin</span> personal or corporate as well?    ",
+    "time": "06:14:31"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      <span class=\"atTag\">@barry</span> <a href=\"https://trello.com/\">https://trello.com/</a>    ",
+    "time": "10:39:47"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      <span class=\"atTag\">@IsaacBrent</span> did do anything on the \"delete invite request queue before tests\" ticket? You seem to have claimed it.    ",
+    "time": "10:53:36"
+  },
+  {
+    "name": "Veronica Rhodes",
+    "content": "\n      <span class=\"atTag\">@barry</span> did you change the estimate on <a href=\"https://trello.com/\">https://trello.com/</a> - i thought y'all said 0.75?    ",
+    "time": "11:03:40"
+  },
+  {
+    "name": "Isaac Brent",
+    "content": "\n      no I didn't do anything. we seem to be cleaning up before tests. I think I had an question to justin on how to reproduce it    ",
+    "time": "11:00:33"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      how do we use unr.ly on bitly?    ",
+    "time": "11:17:34"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      HOLY SHEEEET    ",
+    "time": "11:17:36"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      I guess he's going into Tabs?    ",
+    "time": "11:17:50"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      yep    ",
+    "time": "11:17:55"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <a href=\"http://memebase.cheezburger.com/share/8427627776\">http://memebase.cheezburger.com/share/8427627776</a>    ",
+    "time": "11:30:21"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      <a href=\"http://jonathandub.in/cognizance/\">http://jonathandub.in/cognizance/</a>    ",
+    "time": "11:32:18"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <span class=\"atTag\">@justin</span> I envision the next 007 suit being *made* of traditional adverts: as we're either ad-blind or ad-blocking: no one would see you! Ultimate stealth technology... <img title=\";)\" alt=\";)\" height=\"20\" width=\"20\" src=\"https://dujrsrsgsd3nh.cloudfront.net/img/emoticons/wink.png\">    ",
+    "time": "11:44:15"
+  },
+  {
+    "name": "Isaac Brent",
+    "content": "\n      <span class=\"atTag\">@mrwillis</span> Looks like the load test didn't work (the generating load part)..Do you have time to look at it?    ",
+    "time": "11:55:41"
+  },
+  {
+    "name": "Isaac Brent",
+    "content": "\n      <span class=\"atTag\">@mrwillis</span> we are hitting the monkeys, but looks like the python magic to generate load didn't happen    ",
+    "time": "11:56:08"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      <span class=\"atTag\">@IsaacBrent</span> I will take a nose, yeah. Just writing up notes for a story.    ",
+    "time": "11:56:13"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      <span class=\"atTag\">@IsaacBrent</span> The loader script on prod is empty, time to do forensics.    ",
+    "time": "11:58:24"
+  },
+  {
+    "name": "Tomas Libal",
+    "content": "\n      @marmalade it looks like there are 2 failing acceptance tests in leo-ad-unit. One checks number of thirdPartyTracking to be 3 pixels, but in the JSON there are just two. I will need some assistance how to proceed    ",
+    "time": "11:59:08"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <a href=\"https://vimeo.com/117300611\">https://vimeo.com/117300611</a>    ",
+    "time": "12:02:10"
+  },
+  null,
+  {
+    "name": "Mark Rustin",
+    "content": "\n      This: <a href=\"http://www.wired.com/2015/01/is-devops-driving-the-future-of-ux-design/\">http://www.wired.com/2015/01/is-devops-driving-the-future-of-ux-design/</a>     ",
+    "time": "12:09:25"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      We are clearly pwning The Future.     ",
+    "time": "12:09:53"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      my answer to that article is an honest \"no\"    ",
+    "time": "12:12:30"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <span class=\"atTag\">@justin</span> In what sense?     ",
+    "time": "12:17:49"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      DevOps? ¬_¬    ",
+    "time": "12:18:21"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      /alias set @teamleads <span class=\"atTag\">@barry</span> <span class=\"atTag\">@Todd</span> <span class=\"atTag\">@Buddy</span>     ",
+    "time": "12:18:22"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      @teamleads <a href=\"https://github.com/h5bp/Front-end-Developer-Interview-Questions#js-questions\">https://github.com/h5bp/Front-end-Developer-Interview-Questions#js-questions</a>    ",
+    "time": "12:18:29"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      <span class=\"atTag\">@mark</span> I don't think a developer thinking about UX falls under devops    ",
+    "time": "12:18:51"
+  },
+  {
+    "name": "Alfy Willis",
+    "content": "\n      Nothing falls under DevOps because it's a made up thing ¬_¬    ",
+    "time": "12:19:11"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <span class=\"atTag\">@justin</span> Sure, to me it has a linkbait title that inaccurately sums up the content    ",
+    "time": "12:19:19"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <span class=\"atTag\">@justin</span> Me neither    ",
+    "time": "12:19:28"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      maybe, but with a title like that, I don't think the article is worth reading nor worth my adblocks :T    ",
+    "time": "12:22:09"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      @chutney <a href=\"https://github.com/newsapps/beeswithmachineguns\">https://github.com/newsapps/beeswithmachineguns</a>    ",
+    "time": "12:24:53"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      <a href=\"http://www.maxistentialism.com/bees/oprahbees.gif\">http://www.maxistentialism.com/bees/oprahbees.gif</a>    ",
+    "time": "12:24:59"
+  },
+  {
+    "name": "Mark Rustin",
+    "content": "\n      <span class=\"atTag\">@justin</span> agreed. Some of these things are common language signifiers people have adhoc agreed to use to summarise a bunch of stuff/a context    ",
+    "time": "12:25:28"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      hipchat's single line limit for topics is...    ",
+    "time": "12:29:04"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      <span class=\"atTag\">@GazTheakston</span> plz share the funnies    ",
+    "time": "12:30:06"
+  },
+  {
+    "name": "Ace Peterson",
+    "content": "\n      Is Being a nice Person Driving the Future of UX Design? | WIRED    ",
+    "time": "12:31:13"
+  },
+  {
+    "name": "Gaz Theakston",
+    "content": "\n      <span class=\"atTag\">@justin</span> it is in the readme of the repo you shared <a href=\"http://kottke.org/10/10/tiny-catapult-for-throwing-pies-at-bees\">http://kottke.org/10/10/tiny-catapult-for-throwing-pies-at-bees</a>    ",
+    "time": "12:31:17"
+  },
+  {
+    "name": "Ace Peterson",
+    "content": "\n      Is Free Fruit Driving the Future of UX Design? | WIRED    ",
+    "time": "12:31:24"
+  },
+  {
+    "name": "Justin Arnold",
+    "content": "\n      oh that    ",
+    "time": "12:31:27"
+  },
+  {
+    "name": "Ace Peterson",
+    "content": "\n      Is Obama Driving the Future of UX Design? | WIRED    ",
+    "time": "12:31:38"
+  }
+]

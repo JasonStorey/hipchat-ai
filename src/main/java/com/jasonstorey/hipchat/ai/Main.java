@@ -1,35 +1,21 @@
 package com.jasonstorey.hipchat.ai;
 
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.type.TypeReference;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
 public class Main {
 
-    public static List<Message> parseMessages(File jsonFile) {
-        List<Message> messages = null;
-        ObjectMapper objectMapper = new ObjectMapper();
+    public static void main( String[] args ) {
+        MessageLoader messageLoader = new MessageLoader();
 
-        try {
-            messages = objectMapper.readValue(jsonFile, new TypeReference<List<Message>>(){});
-        } catch (JsonMappingException e) {
-            e.printStackTrace();
-        } catch (JsonParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        List<Message> messages = messageLoader.parseFromJson(args[0]);
+
+        for (Message message : messages) {
+            System.out.printf("Name: %s", message.getName());
+            System.out.printf("Content: %s", message.getContent());
+            System.out.printf("Time: %s", message.getTime());
         }
 
-        return messages;
-    };
-
-    public static void main( String[] args ) {
         Brain brain = new Brain();
-        HipchatAI hipchatAI = new HipchatAI(brain);
+        HipchatAI hipchatAI = new HipchatAI(brain, messages);
     }
 }
