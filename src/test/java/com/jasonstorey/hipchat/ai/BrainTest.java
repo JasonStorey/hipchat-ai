@@ -54,8 +54,8 @@ public class BrainTest {
         brain.train(messages);
 
         Label label = brain.getMemory().get(mockName);
-        int occurrencesOfHere = label.getOccurrences("here");
-        int occurrencesOfTypical = label.getOccurrences("typical");
+        int occurrencesOfHere = label.getOccurrencesOfToken("here");
+        int occurrencesOfTypical = label.getOccurrencesOfToken("typical");
 
         assertEquals(1, occurrencesOfHere);
         assertEquals(3, occurrencesOfTypical);
