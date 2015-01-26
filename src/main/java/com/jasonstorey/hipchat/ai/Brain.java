@@ -12,7 +12,7 @@ public class Brain {
     }
 
     public void train(List<Message> messages) {
-        for(Message message : messages) {
+        messages.stream().forEach((message) -> {
             if (message != null) {
                 String[] tokens = Tokeniser.extractTokens(message.getContent());
                 Label label;
@@ -27,7 +27,7 @@ public class Brain {
 
                 memory.put(label.getName(), label);
             }
-        };
+        });
     }
 
     public HashMap<String, Label> getMemory() {
