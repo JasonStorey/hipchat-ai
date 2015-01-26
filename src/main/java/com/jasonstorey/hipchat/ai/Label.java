@@ -18,7 +18,6 @@ public class Label {
     }
 
     public void addTokens(String[] tokens) {
-        occurrences++;
         for(String token : tokens) {
             Integer occurrences = 1;
             if(tokenOccurrences.containsKey(token)) {
@@ -41,5 +40,9 @@ public class Label {
 
     public Integer getOccurrences() {
         return occurrences;
+    }
+
+    public void incrementOccurrences() {
+        occurrences++;
     }
 }

@@ -46,14 +46,14 @@ public class LabelTest {
     }
 
     @Test
-    public void incrementsLabelOccurrenceCounterWhenNewTokensAreAdded() {
+    public void incrementsLabelOccurrenceCounter() {
         Label label = new Label(labelName);
         assertEquals(new Integer(0), label.getOccurrences());
 
-        label.addTokens(new String[]{});
+        label.incrementOccurrences();
         assertEquals(new Integer(1), label.getOccurrences());
 
-        label.addTokens(new String[]{});
+        label.incrementOccurrences();
         assertEquals(new Integer(2), label.getOccurrences());
     }
 }
