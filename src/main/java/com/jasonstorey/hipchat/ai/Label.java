@@ -27,6 +27,12 @@ public class Label {
     }
 
     public Integer getOccurrences(String token) {
-        return tokenOccurrences.get(token).intValue();
+        Integer occurrences = tokenOccurrences.get(token);
+
+        if(occurrences != null) {
+            return occurrences.intValue();
+        } else {
+            return 0;
+        }
     }
 }
