@@ -24,6 +24,7 @@ public class Brain {
                 }
 
                 label.addTokens(tokens);
+                label.incrementOccurrences();
 
                 memory.put(label.getName(), label);
             }

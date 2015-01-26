@@ -62,6 +62,19 @@ public class BrainTest {
     }
 
     @Test
+    public void incrementsLabelCountsForEachMessage() throws Exception {
+        Integer numOfMessagesWithSameName = 2;
+        messages.add(mockMessage1);
+        messages.add(mockMessage2);
+
+        brain.train(messages);
+
+        Label label = brain.getMemory().get(mockName);
+
+        assertEquals(numOfMessagesWithSameName, label.getOccurrences());
+    }
+
+    @Test
     public void memoryShouldNotParseNullMessages() {
         String aNewLabel = "Bobby Fisher";
         int numOfValidMessages = 2;
