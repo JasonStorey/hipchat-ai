@@ -80,7 +80,7 @@
     "time": "11:58:24"
   },
   {
-    "name": "Tomas Libal",
+    "name": "Thor Lincoln",
     "content": "\n      @marmalade it looks like there are 2 failing acceptance tests in leo-ad-unit. One checks number of thirdPartyTracking to be 3 pixels, but in the JSON there are just two. I will need some assistance how to proceed    ",
     "time": "11:59:08"
   },
