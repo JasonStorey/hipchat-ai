@@ -60,4 +60,18 @@ public class BrainTest {
         assertEquals(1, occurrencesOfHere);
         assertEquals(3, occurrencesOfTypical);
     }
+
+    @Test
+    public void memoryShouldNotParseNullMessages() {
+        String aNewLabel = "Bobby Fisher";
+        int numOfValidMessages = 2;
+        when(mockMessage2.getName()).thenReturn(aNewLabel);
+        messages.add(mockMessage1);
+        messages.add(mockMessage2);
+        messages.add(null);
+
+        brain.train(messages);
+
+        assertEquals(numOfValidMessages, brain.getMemory().size());
+    }
 }
